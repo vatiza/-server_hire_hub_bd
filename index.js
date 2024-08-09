@@ -24,7 +24,7 @@ async function run() {
     await client.connect();
     // Send a ping to confirm a successful connection
 
-    const jobPosts = client.db("hireHubDB").collection("jobPost");
+    const jobPosts = client.db("hireHubDB").collection("jobsPost");
     const company = client.db("hireHubDB").collection("companyProfile");
 
     // jobs collections
